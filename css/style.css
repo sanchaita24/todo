@@ -1,0 +1,127 @@
+
+   body {
+  font-family: Arial, sans-serif;
+  background: #f5f7fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+.enter-work {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.enter-work input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+}
+
+.enter-work input:focus {
+  border-color: #007bff;
+}
+
+.enter-work button {
+  padding: 12px 18px;
+  border: none;
+  background: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.enter-work button:hover {
+  background: #0056b3;
+}
+
+/* Remove the default bullet */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.list li {
+  background: #fafafa;
+  padding: 12px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #eee;
+  transition: 0.3s;
+}
+
+/* Hover effect for list items */
+.list li:hover {
+  background: #eef4ff;
+  border-color: #bcd4ff;
+}
+
+/* Custom circle instead of bullet */
+.list li::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid #007bff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+ ul li{
+      cursor: pointer;
+    }
+   ul li span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 22px;
+    height: 22px;
+
+    border: 2px solid #ff4d4d;
+    border-radius: 50%;
+
+    background-color: #ffe6e6;
+    cursor: pointer;
+
+    font-size: 14px;
+    color: #d60000;
+    margin-left: auto; 
+    transition: 0.3s;
+}
+
+/* Hover effect */
+ul li span:hover {
+    background-color: #ffcccc;
+    box-shadow: 0 0 4px #ff4d4d;
+}
+
+    .checked {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
